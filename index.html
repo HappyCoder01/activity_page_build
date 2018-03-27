@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no"><title>京东安全月</title><script src=./static/jquery.min.js></script><link href=./static/css/app.a130e6a40f75e6535ff9f19489be9513.css rel=stylesheet></head><body><div id=app></div><script>// 适配rem，自动调节html的fontSize
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no"><title>京东安全月</title><script src=./static/jquery.min.js></script><script src=http://res.wx.qq.com/open/js/jweixin-1.0.0.js></script><link href=./static/css/app.997282932b14ed45041c50d9a88f1b37.css rel=stylesheet></head><body><div id=app></div><script>// 适配rem，自动调节html的fontSize
   (function (doc, win) {
     var docEl = doc.documentElement,
       // 手机旋转事件,大部分手机浏览器都支持 onorientationchange 如果不支持，可以使用原始的 resize
@@ -17,4 +17,7 @@
     win.addEventListener(resizeEvt, recalc, false);
     win.addEventListener('DOMContentLoaded', recalc, false);
 
-  })(document, window);</script><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.690af568dc446079a841.js></script><script type=text/javascript src=./static/js/app.3a58a3f047e570931622.js></script></body></html>
+    win.wx.config({
+      // 配置信息
+    });
+  })(document, window);</script><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.690af568dc446079a841.js></script><script type=text/javascript src=./static/js/app.654f13cddf9387577b19.js></script></body></html>
